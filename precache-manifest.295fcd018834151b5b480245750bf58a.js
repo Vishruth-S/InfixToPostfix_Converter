@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b840610c9ed8c082af8ae9eb0356474d",
+    "revision": "5d01cc751a711bea30d7a053bf995456",
     "url": "/InfixToPostfix_Converter/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InfixToPostfix_Converter/static/css/2.6de03630.chunk.css"
   },
   {
-    "revision": "8e42951efac5254d2223",
-    "url": "/InfixToPostfix_Converter/static/css/main.0efd1e59.chunk.css"
+    "revision": "b2e681c1a1d8c4df171b",
+    "url": "/InfixToPostfix_Converter/static/css/main.f92fd8bb.chunk.css"
   },
   {
     "revision": "3c1b1fb89f917c1b384d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InfixToPostfix_Converter/static/js/2.f9e7a615.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e42951efac5254d2223",
-    "url": "/InfixToPostfix_Converter/static/js/main.30ce8c3d.chunk.js"
+    "revision": "b2e681c1a1d8c4df171b",
+    "url": "/InfixToPostfix_Converter/static/js/main.ab9a4f7b.chunk.js"
   },
   {
     "revision": "7b05287469f17bfe7945",
