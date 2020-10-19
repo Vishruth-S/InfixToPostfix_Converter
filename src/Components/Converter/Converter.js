@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Showtables from '../ShowTables/Showtables'
+import './Converter.css'
 
 class Converter extends Component {
     state = {
@@ -8,13 +9,6 @@ class Converter extends Component {
         operatorsTable: [],
         infix: []
     }
-    // push = (item) => {
-    //     postfix.push(item);
-    // }
-    // pop = () => {
-    //     if (length(postfix) != 0)
-    //         postfix.pop()
-    // }
     componentDidMount() {
         this.setState({
             infix: [...this.props.infix, " "]
@@ -22,9 +16,6 @@ class Converter extends Component {
         this.convert()
     }
     convert = () => {
-        // this.setState({
-        //     converting: true
-        // })
         let operatorsTable = []
         let postfixTable = []
         let postfix = []
@@ -59,7 +50,6 @@ class Converter extends Component {
             }
             operatorsTable.push([...operators])
             postfixTable.push([...postfix])
-            // console.log(infix[i])
         }
         while (operators.length !== 0) {
             postfix += operators[top]
@@ -68,10 +58,6 @@ class Converter extends Component {
             postfixTable.push([...postfix])
             operatorsTable.push([...operators])
         }
-        // console.log(postfix        
-        // postfixTable.push([...postfix])
-        // console.log(operatorsTable)
-        // console.log(postfixTable)
         this.setState({
             postfix: postfix,
             postfixTable: postfixTable,
@@ -80,11 +66,8 @@ class Converter extends Component {
     }
     render() {
         return (
-            <div>
-                {/* {postfixed.map((value, id) => (
-                    <span key={id}>{value}</span>
-                ))} */}
-                <span>{this.state.postfix}</span>
+            <div className="converter-main">
+                <p className="postfix-exp">Postfix Expression:  <b className="postfix">{this.state.postfix}</b></p>
                 <Showtables tables={this.state} />
             </div>
         )
@@ -96,7 +79,6 @@ function isAlpha(ch) {
 }
 
 function getPrecedence(c) {
-    // console.log("c= ", c)
     switch (c) {
         case "$":
             return 4;

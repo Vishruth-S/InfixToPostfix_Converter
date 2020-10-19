@@ -15,8 +15,8 @@ const Showtables = (props) => {
     for (const [index, value] of postfixTable.entries()) {
         rows.push(
             <tr key={index}>
-                <td>{infix[index]}</td>
-                <td>{operatorsTable[index]}</td>
+                <td className="alignCenter">{infix[index]}</td>
+                <td className="alignCenter">{operatorsTable[index]}</td>
                 <td>{value}</td>
             </tr>
         )

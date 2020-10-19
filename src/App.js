@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import Converter from './Components/Converter/Converter'
+import Navbar from './Components/Navbar/Navbar'
+import 'font-awesome/css/font-awesome.min.css';
 
 class App extends Component {
     state = {
@@ -27,11 +29,28 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <h2>Infix to postfix Converter</h2>
-                <input placeholder="Enter infix expression" onChange={this.inputChangeHandler}></input>
-                <button onClick={this.submitHandler}>Convert</button>
-                {this.state.submitted ? <Converter infix={this.state.infix} /> : null}
+            <div>
+                <Navbar />
+
+                <div className="App">
+                    <h2 className="heading">Infix to postfix Converter</h2>
+                    <p>This is a tool to convert any infix expression to postfix expression with all steps shown in the table</p>
+                    <hr></hr>
+                    <h5>How to use?</h5>
+                    <p>Enter any infix expression in the input box, for example: A+(B-C)*D/E^F</p>
+                    <p><i>If using unary - or +, use $ instead. Example: a*-b must be entered as a*$b</i></p>
+                    <p>Press Convert to get the postfix expression and table</p>
+                    <div className="input-container">
+                        <input className="infix-input" placeholder="Enter infix expression" onChange={this.inputChangeHandler}></input>
+                        <button className="convert-btn" onClick={this.submitHandler}>Convert</button>
+                    </div>
+                    {this.state.submitted ? <Converter infix={this.state.infix} /> : null}
+                </div>
+                <div className="footer" style={{ display: this.state.submitted ? "block" : "none" }}>
+                    <hr></hr>
+                    <p>Found any bug? Report it <a href="">here</a> </p>
+                    <p>Made with <i className="fa fa-heart"></i> by <a href="">VS</a></p>
+                </div>
             </div>
         )
     }

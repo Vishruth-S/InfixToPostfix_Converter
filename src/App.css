@@ -1,3 +1,76 @@
 .App {
     text-align: center;
+    min-height: 100vh;
+    width: 60%;
+    margin: auto;
+}
+
+.footer {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.infix-input {
+    height: 25px;
+    border-radius: 5px 0px 0px 5px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    font-size: 20px;
+}
+
+.convert-btn {
+    background-color: #FFEE51;
+    height: 50px;
+    position: absolute;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 0px;
+}
+
+.convert-btn:hover {
+    cursor: pointer;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+p {
+    margin: 2px;
+}
+
+.input-container {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    margin: 0px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.fa {
+    color: #FFEE51;
+}
+
+@media (max-width: 600px) {
+    .App {
+        width: 90%;
+    }
+    .infix-input {
+        width: 240px;
+    }
+    .convert-btn {
+        width: 60px;
+        font-size: 12px;
+    }
+    p {
+        font-size: 15px;
+    }
 }
