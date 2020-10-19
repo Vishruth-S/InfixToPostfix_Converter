@@ -45,6 +45,7 @@ p {
 .input-container {
     margin-top: 25px;
     margin-bottom: 15px;
+    margin-right: 50px;
 }
 
 .heading {
@@ -64,7 +65,7 @@ p {
         width: 90%;
     }
     .infix-input {
-        width: 240px;
+        width: 220px;
     }
     .convert-btn {
         width: 60px;
