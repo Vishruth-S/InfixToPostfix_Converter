@@ -25,6 +25,15 @@
     float: right;
 }
 
+a {
+    text-emphasis: none;
+}
+
+.gh-link {
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 500px) {
     .nav-logo {
         width: 140px;

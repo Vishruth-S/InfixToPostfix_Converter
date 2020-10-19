@@ -48,8 +48,8 @@ class App extends Component {
                 </div>
                 <div className="footer" style={{ display: this.state.submitted ? "block" : "none" }}>
                     <hr></hr>
-                    <p>Found any bug? Report it <a href="">here</a> </p>
-                    <p>Made with <i className="fa fa-heart"></i> by <a href="">VS</a></p>
+                    <p>Found any bug? Report it <a href="https://github.com/Vishruth-S/InfixToPostfix_Converter/issues">here</a> </p>
+                    <p>Made with <i className="fa fa-heart"></i> by <a href="https://vishruth-s.github.io/Me/">VS</a></p>
                 </div>
             </div>
         )

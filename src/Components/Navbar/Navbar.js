@@ -7,8 +7,8 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <span className="navbar-brand" ><img className="nav-logo" alt="Infix2Postfix_logo" src={Logo} /></span>
-            <img src={svg} className="gh-svg" alt="github-icon" />
-            <span className="navbar-link">Star me on Github</span>
+            <a className="gh-link" href="https://github.com/Vishruth-S/InfixToPostfix_Converter/"><img src={svg} className="gh-svg" alt="github-icon" /></a>
+            <span className="navbar-link"><a className="gh-link" href="https://github.com/Vishruth-S/InfixToPostfix_Converter/">Star me on Github</a></span>
         </div>
     )
 }
