@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/InfixToPostfix_Converter/precache-manifest.30b483e9b1c9ca714bc07598a617ca25.js"
+  "/InfixToPostfix_Converter/precache-manifest.bbc124360ee427010d171585124193e1.js"
 );
 
 self.addEventListener('message', (event) => {

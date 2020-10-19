@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/InfixToPostfix_Converter/static/css/main.21de9d71.chunk.css",
-    "main.js": "/InfixToPostfix_Converter/static/js/main.f21a6cdf.chunk.js",
-    "main.js.map": "/InfixToPostfix_Converter/static/js/main.f21a6cdf.chunk.js.map",
+    "main.css": "/InfixToPostfix_Converter/static/css/main.0efd1e59.chunk.css",
+    "main.js": "/InfixToPostfix_Converter/static/js/main.30ce8c3d.chunk.js",
+    "main.js.map": "/InfixToPostfix_Converter/static/js/main.30ce8c3d.chunk.js.map",
     "runtime-main.js": "/InfixToPostfix_Converter/static/js/runtime-main.4eb1e19e.js",
     "runtime-main.js.map": "/InfixToPostfix_Converter/static/js/runtime-main.4eb1e19e.js.map",
     "static/css/2.6de03630.chunk.css": "/InfixToPostfix_Converter/static/css/2.6de03630.chunk.css",
     "static/js/2.f9e7a615.chunk.js": "/InfixToPostfix_Converter/static/js/2.f9e7a615.chunk.js",
     "static/js/2.f9e7a615.chunk.js.map": "/InfixToPostfix_Converter/static/js/2.f9e7a615.chunk.js.map",
     "index.html": "/InfixToPostfix_Converter/index.html",
-    "precache-manifest.30b483e9b1c9ca714bc07598a617ca25.js": "/InfixToPostfix_Converter/precache-manifest.30b483e9b1c9ca714bc07598a617ca25.js",
+    "precache-manifest.bbc124360ee427010d171585124193e1.js": "/InfixToPostfix_Converter/precache-manifest.bbc124360ee427010d171585124193e1.js",
     "service-worker.js": "/InfixToPostfix_Converter/service-worker.js",
     "static/css/2.6de03630.chunk.css.map": "/InfixToPostfix_Converter/static/css/2.6de03630.chunk.css.map",
-    "static/css/main.21de9d71.chunk.css.map": "/InfixToPostfix_Converter/static/css/main.21de9d71.chunk.css.map",
+    "static/css/main.0efd1e59.chunk.css.map": "/InfixToPostfix_Converter/static/css/main.0efd1e59.chunk.css.map",
     "static/js/2.f9e7a615.chunk.js.LICENSE.txt": "/InfixToPostfix_Converter/static/js/2.f9e7a615.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/InfixToPostfix_Converter/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/gh_svg.svg": "/InfixToPostfix_Converter/static/media/gh_svg.a56223e9.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.4eb1e19e.js",
     "static/css/2.6de03630.chunk.css",
     "static/js/2.f9e7a615.chunk.js",
-    "static/css/main.21de9d71.chunk.css",
-    "static/js/main.f21a6cdf.chunk.js"
+    "static/css/main.0efd1e59.chunk.css",
+    "static/js/main.30ce8c3d.chunk.js"
   ]
 }
