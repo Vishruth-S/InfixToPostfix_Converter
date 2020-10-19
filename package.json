@@ -2,7 +2,7 @@
   "name": "app1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://vishruth-s.github.io/InfixToPostfix_Converter/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
