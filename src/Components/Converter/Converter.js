@@ -23,7 +23,7 @@ class Converter extends Component {
         let top = -1
         let infix = [...this.props.infix]
         for (let i = 0; i < infix.length; i++) {
-            if (isAlpha(infix[i])) {
+            if (isOperand(infix[i])) {
                 postfix += infix[i]
             }
             else if (!isOpeningBracket(infix[i]) && !isClosingBracket(infix[i])) {
@@ -74,8 +74,8 @@ class Converter extends Component {
     }
 }
 
-function isAlpha(ch) {
-    return /^[A-Z]$/i.test(ch);
+function isOperand(ch) {
+    return /^[0-9A-Z]$/i.test(ch)
 }
 
 function getPrecedence(c) {

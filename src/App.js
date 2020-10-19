@@ -21,10 +21,12 @@ class App extends Component {
     submitHandler = () => {
         let infix = this.state.inputValue
         infix = infix.replace(/\s+/g, '')
-        this.setState({
-            infix: infix,
-            submitted: true,
-        })
+        if (CheckInputValue(infix)) {
+            this.setState({
+                infix: infix,
+                submitted: true,
+            })
+        }
     }
 
     render() {
@@ -38,7 +40,6 @@ class App extends Component {
                     <hr></hr>
                     <h5>How to use?</h5>
                     <p>Enter any infix expression in the input box, for example: A+(B-C)*D/E^F</p>
-                    <p>(Currently, only alphabets [A-Z],[a-z] and +,-,*,/,^ are supported)</p>
                     <p><i>If using unary - or +, use $ instead. Example: a*-b must be entered as a*$b</i></p>
                     <p>Press Convert to get the postfix expression and table</p>
                     <div className="input-container">
@@ -55,6 +56,12 @@ class App extends Component {
             </div>
         )
     }
+}
+
+function CheckInputValue(str) {
+    if (/[^$^*()[\]{}+/\-A-z0-9]/g.test(str))
+        return alert("Unsupported characters present.\nValid characters: alphabets[a-z,A-Z], Numbers[0-9], +,-,/,*,^,(),[],{}")
+    return true
 }
 
 export default App;
